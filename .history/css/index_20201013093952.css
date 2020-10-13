@@ -1,0 +1,17 @@
+*{
+    box-sizing: border-box;
+}
+.topbar-wrapper{
+    height: 40px;
+    border:1px solid red;
+    width: 100%;
+}
+.topbar .service{
+    float: left;
+}
+.topbar .user,.topbar .shop-cart{
+    float: right;
+}
+.topbar a{
+    float: left;
+}

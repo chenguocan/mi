@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.topbar .service{
+    float: left;
+}
+.topbar .user,.topbar .shop-cart{
+    float: right;
+}
+.topbar a{
+    float: left;
+}

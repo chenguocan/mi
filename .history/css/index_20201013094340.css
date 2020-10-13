@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+.topbar-wrapper{
+    background:rgb(48, 51, 48);
+    height: 40px;
+    border:1px solid red;
+    width: 100%;
+}
+.topbar .service{
+    float: left;
+}
+.topbar .user,.topbar .shop-cart{
+    float: right;
+}
+.topbar ul li{
+    color:rgb(116, 125, 118);
+    line-height: 40px;
+    float: left;
+}
+.topbar ul li a{
+    color:rgb(116, 125, 118);
+}
+.topbar ul li .line{
+    height: 1px;
+    width: 1px;
+    border-right: 1px solid black;
+}

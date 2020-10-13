@@ -1,0 +1,22 @@
+
+.clearfix::before,
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body{
+    color: rgb(51,51,51);
+    font: 14px/1.5 "Helvetica Neue", Helvetica, Arial, "Microsoft Yahei", "Hiragino Sans GB", "Heiti SC", "WenQuanYi Micro Hei", sans-serif;
+    min-width: 1226px;
+}
+a{
+    text-decoration: none;
+    color:#333;
+}
+.w{
+    width: 1226px;
+    margin-left:auto;
+    margin-right: auto;
+}
